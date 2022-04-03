@@ -42,7 +42,7 @@ function draw(){
     image(video, 0, 0, 600, 500);
 
     fill("#ff000d");
-    storke("#ff000d");
+    stroke("#ff000d");
 
     if(scoreRightWrist > 0.2){
         circle(rightwristX, rightwristY, 20);
